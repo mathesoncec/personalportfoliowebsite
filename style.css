@@ -1,0 +1,85 @@
+.container {
+    align-items: center;
+    font-family: 'Trebuchet MS';
+}
+
+/* css for the header part of the page */
+
+header {
+    background-color: navy;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 0 2em;
+    height: 5em;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4.5em;
+    padding: 0 3.5em;
+}
+
+#main-title {
+    font-family: Arial;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0 3em;
+}
+
+nav ul li {
+    margin: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: grey;
+}
+/* css for the main part of the page */
+
+main {
+    margin: 0 3em;
+}
+
+.aboutme {
+    margin-top: 5em;
+    display: flex;
+}
+
+.aboutmetxt {
+    width: 60%;
+}
+
+/* css for contact me section in contacts */
+.contactme {
+    margin-top: 5em;
+    padding-top: 0.1em;
+}
+
+.contactme a {
+    text-decoration: none;
+    color: black;
+}
+
+.contactme a:hover {
+    color: grey;
+}
+
+/* css for the footer part of the page */
+
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 0.5em 0;
+    margin: 0 -1em;
+    margin-bottom: -0.5em;
+}
